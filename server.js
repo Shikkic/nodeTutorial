@@ -9,7 +9,8 @@ app.get('/', function(req, res) {
 });
 
 app.get('/storytime', function(req, res) {
-	res.send("<p> Hey" + req.query.name + "nice to meet you </p>");
+	res.send("<p> Hey " + req.query.name + " nice to meet you! I think like to "+ req.query.verb + 
+	" this has been an awesome story of "+ req.query.adjective + " , you're totally welcome </p>");
 });
 
 app.listen(app.get('port'), function() {
