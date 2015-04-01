@@ -11,7 +11,7 @@ Navigate to your Desktop via Git Bash, or terimnal, and enter the following. (EX
 >Make sure to insert your username into the url
 
 ```sh
-$ git clone https://github.com/YOURUSERNAMEHERE/nodepractice
+$ git clone https://github.com/YOURUSERNAMEHERE/nodeTutorial
 ```
 
 # Heroku
