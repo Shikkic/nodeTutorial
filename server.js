@@ -17,7 +17,16 @@ app.get('/music', function(req, res){
 	
 	request('https://api.spotify.com/v1/search?q=Muse&type=album', function (error, response, body) {
   		if (!error && response.statusCode == 200) {
-    			res.status(200).json(body); 
+  			var elements = ['<!doctype html5><html>'];
+  			body.albums.items.forEach(function(album) {
+  				try {
+  				elements.push('<a href="' + album.href + '"><img src="' + album.images[0].url + '"></a>');
+  				} catch (err) {
+  					console.log(err);
+  				}
+  			});
+  			elements.push('</html>');
+    			res.status(200).send(elements.join('')); 
 		}
 	});
 });
