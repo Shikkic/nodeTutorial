@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.11.2",
+    "port-friends": "^1.2.1",
     "require": "^2.4.17"
   }
 }
