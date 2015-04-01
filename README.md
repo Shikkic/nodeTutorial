@@ -5,7 +5,7 @@ First start by forking this repo. You can find the fork button at the top right 
 Then lets clone the repo to our desktop so we can make some changes and eventually push it to our heroku server.
 
 Navigate to your Desktop via Git Bash, or terimnal, and enter the following. (Make sure to insert your username into the url)
-```
+```sh
 $ git clone https://github.com/YOURUSERNAMEHERE/nodepractice
 ```
 
