@@ -8,10 +8,6 @@ app.get('/', function(req, res) {
 	res.sendfile('./public/index.html');
 });
 
-app.get('/storytime', function(req, res) {
-	res.status(200).send("<h1> I have recieved your msg" +req.query.name+" thanks for that!+</p>");
-});
-
 app.listen(app.get('port'), function() {
 	console.log('Fuck it ship it.');
 });
