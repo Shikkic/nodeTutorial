@@ -2,17 +2,16 @@
 
 First start by forking this repo. You can find the fork button at the top right of the page!
 
-SSH into nodeme.cloudapp.net
+Then lets clone the repo to our desktop so we can make some changes and eventually push it to our heroku server.
 
-With the user: newuser password: Password321
+Navigate to your Desktop via Git Bash, or terimnal, and enter the following. (Make sure to insert your username into the url)
+```
+$ git clone https://github.com/YOURUSERNAMEHERE/nodepractice
+```
 
-Clone the git repo onto your folder. 
+# Heroku
 
-git clone https://github.com/Shikkic/nodepractice
-
-=
-# Installing Node.js on Ubuntu
-DigitalOcean  has a great article on this here (https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server)
+Heroku is going to provide the free hosting for our node server, so if you don't have an account sign up now! (Don't worry it's most basic teir is free, so no credit card required!)
 
 1).Install the PPA (personal package archive) maintained by NodeSource.
 
