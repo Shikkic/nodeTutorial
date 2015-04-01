@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var request = require('request');
 app.set('port', (process.env.PORT || 5000));
-//app.use(express.static('./public'));
+app.use(express.static('./public'));
 /*
 app.post('/api/test', function(req, res) {
 	req.on('data', function(data) {
@@ -17,7 +17,7 @@ app.post('/api/test', function(req, res) {
 });
 */
 app.get('/', function(req, res) {
-	res.sendfile('./public/index.html');
+	res.sendfile('./index.html');
 });
 
 app.listen(app.get('port'), function() {
