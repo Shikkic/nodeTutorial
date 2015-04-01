@@ -1,6 +1,6 @@
 # nodepractice
-=
-First let's get started by SSHing into our server and downloading Node via PPA
+
+First start by forking this repo. You can find the fork button at the top right of the page!
 
 SSH into nodeme.cloudapp.net
 
