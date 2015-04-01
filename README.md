@@ -32,15 +32,24 @@ We don't have any Heroku apps yet, so why don't we make a new one.
 
 ![Imgur](http://i.imgur.com/bdd6dZA.png)
 
+![Imgur](http://i.imgur.com/l6r2oHI.png)
 
 ### Connecting to Github
 
-Now we want to link our Github account to Heroku so we can deploy our node server repo fast and easily.
+>Now we want to link our Github account to Heroku so we can deploy our node server repo fast and easily.
+
+![Imgur](http://i.imgur.com/r91EaJd.png)
+
+![Imgur](http://i.imgur.com/OiRxjs8.png)
+
+>Now we want to be able to have any changes we push to githbu automatically deploy, so lets enable this feature by click the  *Enable Automatic Deploys*
+
+![Imgur](http://i.imgur.com/QUqb77q.png)
+
+![Imgur](http://i.imgur.com/1PTD7eS.png)
 
 
 
-
-We want to be able to have any changes we push to githbu automatically deploy 
 
 
 
