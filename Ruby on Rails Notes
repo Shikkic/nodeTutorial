@@ -1,0 +1,21 @@
+The foundation of Ruby on Rails is the Request-Response Cycle - the process of asking for, and receiving, a website to be delivered to your browser.
+
+First, our browser makes a request to the server. The server is what talks to our Rails application.
+
+Second, in our Rails application, the route takes the request and finds the right Controller and method to handle the request.
+
+Third, the Controller gets the relevant data and passes it on the View.
+
+Finally, the View nicely packages the information and sends it back to our browser to see.
+
+In the Request-Response Cycle, we learned that when a user makes a request in the browser, the route handles that request and passes it to the right Controller.
+
+We’ll start building our app by making a Controller called Pages. Controllers decide what information our application needs through methods. Our Pages Controller will be in charge of decisions for the home page of the Etsy app.
+
+How do we generate a Controller?
+
+If we want to generate a Controller called Pages, we enter the following in the terminal:
+
+rails generate controller Pages
+Notice that Controller names are always plural.
+
