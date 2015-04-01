@@ -1,19 +1,34 @@
 # Getting Started
 
+### Forking Shikkic/nodeTutorial
+
 First start by forking this repo. You can find the fork button at the top right of the page!
 
 Then lets clone the repo to our desktop so we can make some changes and eventually push it to our heroku server.
 
-Navigate to your Desktop via Git Bash, or terimnal, and enter the following. (Make sure to insert your username into the url)
+Navigate to your Desktop via Git Bash, or terimnal, and enter the following. (EX: C:\Users\Shikkic\Desktop)
+
+>Make sure to insert your username into the url
+
 ```sh
 $ git clone https://github.com/YOURUSERNAMEHERE/nodepractice
 ```
 
 # Heroku
 
-Heroku is going to provide the free hosting for our node server, so if you don't have an account sign up now! (Don't worry it's most basic teir is free, so no credit card required!)
+### Signing up for Heroku
 
-1).Install the PPA (personal package archive) maintained by NodeSource.
+Heroku is going to provide the free hosting for our node server, so if you don't have an account sign up now! *(Don't worry it's most basic teir is free, so no credit card required!)*
+
+[Sign up here!](https://signup.heroku.com/www-header)
+
+### Connecting to Github
+
+Now we want to link our Github account to Heroku so we can quickly 
+
+
+We want to be able to have any changes we push to githbu automatically deploy 
+
 
 ```
 curl -sL https://deb.nodesource.com/setup | sudo bash -
