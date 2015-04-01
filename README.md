@@ -42,7 +42,7 @@ We don't have any Heroku apps yet, so why don't we make a new one.
 
 ![Imgur](http://i.imgur.com/r91EaJd.png)
 
-Now we need to search for the repo we want to connect to our Heroku app
+>Now we need to search for the repo we want to connect to our Heroku app
 
 ![Imgur](http://i.imgur.com/OiRxjs8.png)
 
@@ -52,10 +52,25 @@ Now we need to search for the repo we want to connect to our Heroku app
 
 ###Great! Now we've connected our app to our servers repo
 
+Our server repo is connected now and anytime we *push* an update to the repo, the changes to our website will be automatically reflected by our server
+
 >Let's test it out and manually push our app to the server from the dashboard
 
 ![Imgur](http://i.imgur.com/1PTD7eS.png)
 
+### Viewing your site
+
+So now that we've deployed our site, lets take a look at it shall we?
+
+>You can view your site after you manually deploy it here
+
+![Imgur](http://i.imgur.com/ADobTZk.png)
+
+>You can view your site after you manually deploy it here
+
+![Imgur](http://i.imgur.com/gDQ6h8W.png)
+
+>You can also view it by cickling this button at the top of the page at any time
 
 
 
