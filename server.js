@@ -17,7 +17,7 @@ app.post('/api/test', function(req, res) {
 });
 */
 app.get('/', function(req, res) {
-	res.sendfile('./index.html');
+	res.sendfile('./public/index.html');
 });
 
 app.listen(app.get('port'), function() {
