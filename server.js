@@ -23,6 +23,7 @@ app.get('/music', function(req, res){
   				elements.push('<a href="' + album.href + '"><img src="' + album.images[0].url + '"></a>');
   				} catch (err) {
   					console.log(err);
+  					res.status(200).send(err);
   				}
   			});
   			elements.push('</html>');
