@@ -9,7 +9,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/storytime', function(req, res) {
-	res.status(200).send({status: "I have recieved your msg "+req.query.name});
+	res.status(200).send(<h1>+"I have recieved your msg" +req.query.name+" thanks for that!"+</p>});
 });
 
 app.listen(app.get('port'), function() {
