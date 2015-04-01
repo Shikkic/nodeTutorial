@@ -1,4 +1,4 @@
-# nodepractice
+# Getting Started
 
 First start by forking this repo. You can find the fork button at the top right of the page!
 
