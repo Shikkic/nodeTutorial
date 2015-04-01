@@ -18,21 +18,22 @@ $ git clone https://github.com/YOURUSERNAMEHERE/nodepractice
 
 ### Signing up for Heroku
 
-Heroku is going to provide the free hosting for our node server, so if you don't have an account sign up now! *(Don't worry it's most basic teir is free, so no credit card required!)*
+Heroku is going to provide the free hosting for our node server, so if you don't have an account sign up now! 
+
+>Don't worry it's most basic teir is free, so no credit card required!
 
 [Sign up here!](https://signup.heroku.com/www-header)
 
 ### Connecting to Github
 
-Now we want to link our Github account to Heroku so we can quickly 
+Now we want to link our Github account to Heroku so we can deploy our node server repo fast and easily.
+
+
 
 
 We want to be able to have any changes we push to githbu automatically deploy 
 
 
-```
-curl -sL https://deb.nodesource.com/setup | sudo bash -
-```
 
 2). Install nodejs! This package contains npm, so we don't need to install npm seperatery.
 ```
