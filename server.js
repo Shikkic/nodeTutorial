@@ -13,6 +13,15 @@ app.get('/storytime', function(req, res) {
 	" this has been an awesome story of "+ req.query.adjective + " , you're totally welcome </p>");
 });
 
+app.get('/music', function(req, res){
+	
+	request('https://api.spotify.com/v1/search?q=Muse&type=album', function (error, response, body) {
+  		if (!error && response.statusCode == 200) {
+    			res.status(200).json(body); 
+		}
+	});
+});
+
 app.listen(app.get('port'), function() {
 	console.log('Fuck it ship it.');
 });
