@@ -24,6 +24,15 @@ Heroku is going to provide the free hosting for our node server, so if you don't
 
 [Sign up here!](https://signup.heroku.com/www-header)
 
+### Creating our first Heroku node app
+
+After you've logged in you should see a dashboard. Heroku uses what they call **apps** as servers, we can manage the content we upload to them and tell Heroku when to run it. 
+
+We don't have any Heroku apps yet, so why don't we make a new one.
+
+![Imgur](http://i.imgur.com/bdd6dZA.png)
+
+
 ### Connecting to Github
 
 Now we want to link our Github account to Heroku so we can deploy our node server repo fast and easily.
