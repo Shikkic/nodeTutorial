@@ -10,7 +10,4 @@ app.get('/', function(req, res) {
 	res.sendfile('./public/index.html');
 });
 
-app.listen(app.get('port'), friend({
-    myport: app.get('port'), 
-    mode: app.get('env')
-}));
+friend.listen(app);
